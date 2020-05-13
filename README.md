@@ -1,4 +1,7 @@
 # Workout Starter Pack (v0.1)
+<p align="center">
+ <img src="https://drive.google.com/uc?export=view&id=1M1KEQNnz7zvc9J3HIPdBT-tQXRX1aY4z" />
+</p>
 
 # Introduction :
 
@@ -51,9 +54,32 @@ You can find it in the configuration file under [INPUTS]
 
 # Installation : 
 
-Download the executable [here](https://bit.ly/WorkoutStarterPack) !
+### Installing the executable :
+1) **Download the executable** [here](https://bit.ly/WorkoutStarterPack) !
+2) **Extract** its content 
+3) **Edit the configuration file** situated in ```config/config.ini```
+4) **Run** ```Workout Starter Pack.exe``` and you should be good to go!
 
-Manual installation (python 3):
+**An icon should appear on your taskbar** : 
+
+
+![icon](https://i.imgur.com/k1EBRuW.png)
+
+You should **receive a notification** telling you the number of seconds till the next session.
+
+
+#### If you want to run it on startup :
+
+1) Right click on the executable -> Create Shortcut
+2) Copy or Cut the Shortcut
+3) Press ``` WIN + R ```
+4) Enter ``` shell:startup ```
+5) Press ENTER
+5) Paste the shortcut
+
+
+
+### Manual installation (python 3):
 
 1) Download the project, unzip it
 2) Go to the folder :
