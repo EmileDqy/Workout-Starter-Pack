@@ -1,0 +1,7 @@
+Flask_WTF==0.14.3
+win10toast==0.9
+pywin32==227
+Flask==1.1.2
+infi.systray==0.1.12
+infi==0.0.1
+PyHook3==1.6.1

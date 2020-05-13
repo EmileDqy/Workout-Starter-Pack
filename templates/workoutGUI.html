@@ -1,0 +1,57 @@
+<head>
+    <link rel="stylesheet" href="https://unpkg.com/chota">
+</head>
+<body>
+    <p></p>
+        <h1 class="is-full-width is-center is-large">Workout Starter Pack</h1>
+    <p></p>
+    <div class="row">
+        <div class="col">
+            <div class="card">
+                <h3 class="is-center">Let's do some workout!</h3>
+                
+                <div class="col">
+                    <span class="tag">
+
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <header>
+                    <h4 class="is-center">Camera</h4>
+                </header>
+                <div><canvas id="canvas"></canvas></div>
+                <div id="label-container"></div>                
+            </div>
+            <div class="card" style="margin-top: 10px;">
+                <h1 style="color:#000" class="is-center text-primary is-rounded" id="n"></h1>
+            </div>
+            <div class="card" style="margin-top: 20px;">
+                <p class="is-center" style="text-align: justify">An AI will follow your body! Follow the tutorial on the right!</p>
+                <p class="text-error" style="text-align: justify">Please, make sure to stay in the camera's feed during your exercice!</p>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card" id="includedContent"></div>
+        </div>
+    </div>
+    
+</body>
+<meta name="csrf-token" content="{{ csrf_token() }}">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@teachablemachine/pose@0.8/dist/teachablemachine-pose.min.js"></script>
+<script type="text/javascript">
+    var name = '{{ data.name }}'
+    var value = '{{ data.value|tojson }}'
+    var type = '{{ data.type|tojson }}'
+    var isLast = '{{ data.isLast|tojson }}'
+</script>
+<script> 
+    $(function(){
+        $("#includedContent").load("./static/" + name + "/description.html"); 
+    });
+</script> 
+<script src="{{url_for('static', filename='workout22.js')}}"></script>
