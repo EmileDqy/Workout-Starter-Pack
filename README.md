@@ -51,7 +51,7 @@ You can find it in the configuration file under [INPUTS]
 
 # Installation : 
 
-Download the executable ![here]() !
+Download the executable ![here](https://bit.ly/WorkoutStarterPack) !
 
 Manual installation (python 3):
 
