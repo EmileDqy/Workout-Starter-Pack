@@ -1,5 +1,5 @@
 # Workout Starter Pack (beta v0.1)
-
+![](https://img.shields.io/badge/beta-v0.1-brightgreen)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/AlioptK/Workout-Starter-Pack/issues)
 
 
