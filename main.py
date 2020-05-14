@@ -160,9 +160,6 @@ def start():
     # Sleep TIMER seconds
     time.sleep(TIMER)
 
-    # Remind the user of the session's content
-    notify("Workout Starter Pack", ((EXERCISES_MODE == 0) and "Ordered" or "Randomized") + " sequence :\n  - " + "\n  - ".join(names) , 5)
-
     # Redirect the keys and mouse events
     print("Redirecting keys events...")
     inputs = config.getInputsConfig()
@@ -171,7 +168,11 @@ def start():
 
     # Run the server
     PORT = config.getServerConfig()
-    run(lastTrigger, ListEXERCISES, PORT, tray)
+    if(has_internet()):
+        notify("Workout Starter Pack", ((EXERCISES_MODE == 0) and "Ordered" or "Randomized") + " sequence :\n  - " + "\n  - ".join(names) , 5)
+        run(lastTrigger, ListEXERCISES, PORT, tray)
+    else:
+        notify("Workout Starter Pack", "No internet connection (needed for the webserver)! Stopping...", 5, threaded=False)
 
 if __name__ == "__main__":
     if(has_internet()):
