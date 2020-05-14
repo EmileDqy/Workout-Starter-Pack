@@ -5,3 +5,4 @@ For the next version :
 - Add langage files
 - Add online community workshop (for the exercices and the config files)
 - Add customized reminders such as drinking water every hour.
+- clean the code
