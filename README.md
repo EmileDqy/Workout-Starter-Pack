@@ -52,8 +52,8 @@ The **AI** was added in order to **monitor me during my workout**. I wanted it t
       - **Create and import your own exercises**
  - **An AI which analyzes your movements by counting your repetitions or time your position**
  - **Two modes** were added : 
-     - One that runs a session every N seconds throughout the whole day
-     - Another that works by intervals of hours, allowing you to run N sessions during each interval 
+     - One that runs a session ```every N seconds``` throughout the whole day
+     - Another that works by ```intervals of hours```, allowing you to ```run N sessions each interval``` 
  
 ### The Starter Pack comes with 2 basic exercises :
   - Pushups : the AI will count your pushups
