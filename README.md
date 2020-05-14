@@ -145,5 +145,6 @@ python main.py
 
 #### Possible bugs :
 
-- Webcam not launching (might force the user to turn off the computer if the INPUTS are disabled) : I'll look into that...
+- Camera not launching because it is already used by another program 
+  > If you encounter this problem and your mouse and keyboard are both disabled, press ```CTRL + ALT + SUPPR``` and close the program.
 - CSS might not load if the laptop was on sleep mode
