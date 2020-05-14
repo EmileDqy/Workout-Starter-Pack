@@ -35,8 +35,8 @@ class Tray:
 
     #Open the config file
     def _openConfig(self):
-        config = getAbsPath('./config/config.ini')
-        subprocess.Popen(["start", config])
+        config = getAbsPath("./config/config.ini")
+        os.startfile(config)
 
     #Reload the whole program
     def _reload(self):
