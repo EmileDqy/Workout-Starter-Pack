@@ -96,7 +96,7 @@ You should **receive a notification** telling you the number of seconds till the
 
 #### If you want to run it on startup :
 
-1) Right click on the executable -> Create Shortcut
+1) ```Right click``` on the executable **->** ```Create Shortcut```
 2) Copy or Cut the Shortcut
 3) Press ``` WIN + R ```
 4) Enter ``` shell:startup ```
