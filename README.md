@@ -106,7 +106,7 @@ You should **receive a notification** telling you the number of seconds till the
 <a name="installation-source"></a>
 ### Installing the source code (python 3):
 
-1) Download the project, unzip it
+1) [Download](https://github.com/AlioptK/Workout-Starter-Pack/archive/master.zip) the project, unzip it
 2) Go to the folder :
 ```
 cd <path to the project>
