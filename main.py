@@ -140,7 +140,7 @@ def start():
 
     # Notify for the user of what was done
     if len(ListEXERCISES) == 0:
-        notify("Workout Starter Pack", "Error: no EXERCISES loaded. Please look at the configuration file. Quitting.", 5)
+        notify("Workout Starter Pack", "Error: no exercises loaded. Please look at the configuration file. Quitting.", 5)
         sys.exit(0)
 
     # EXERCISES_MODE : 
@@ -152,7 +152,7 @@ def start():
     
     # Notify of the next session's content
     names = [i[0] for i in ListEXERCISES]
-    notify("Workout Starter Pack", str(len(ListEXERCISES)) + " EXERCISES loaded!\nWaiting " + str(int(TIMER)) + " seconds. \nNext Session : " + " ".join(names) , 5)
+    notify("Workout Starter Pack", str(len(ListEXERCISES)) + " exercise(s) loaded!\nWaiting " + str(int(TIMER)) + " seconds. \nNext Session : " + " ".join(names) , 5)
     
     # Starting the tray
     tray.init_icon_tray()
