@@ -142,5 +142,5 @@ python main.py
 
 #### Possible bugs :
 
-- Webcam not launching (might force the user to turn off the computer if the INPUTS are blocked)
+- Webcam not launching (might force the user to turn off the computer if the INPUTS are disabled) : I'll look into that...
 - CSS might not load if the laptop was on sleep mode
