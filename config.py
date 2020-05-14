@@ -27,7 +27,7 @@ def getBasicInfo():
 def getServerConfig():
     config = configparser.ConfigParser()
     config.read(getAbsPath('./config/config.ini'))
-    if "PORT" in config.options("EXERCICES"):
+    if "PORT" in config.options("EXERCISES"):
         return int(config["SERVER"]["PORT"])
     else:
         print("Switching to default ports : 5000")
