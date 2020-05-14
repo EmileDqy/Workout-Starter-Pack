@@ -77,11 +77,11 @@ You can find it in the configuration file under [INPUTS]
 ## Installation : 
 
 
-### :warning: In order to use this program you wan't to have a laptop equiped with a front facing camera
+### :warning: In order to use this program you want to have a **laptop equiped with a front facing camera**
 
 <a name="installation-exe"></a>
 ### Installing the executable :
-1) **Download the executable** [here](https://bit.ly/WorkoutStarterPack) !
+1) **Download the executable** [here (latest version)](https://bit.ly/2yU5Ez6) !
 2) **Extract** its content 
 3) **Edit the configuration file** situated in ```config/config.ini```
 4) **Run** ```Workout Starter Pack.exe``` and you should be good to go!
