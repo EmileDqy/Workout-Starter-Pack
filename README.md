@@ -63,10 +63,12 @@ The **AI** was added in order to **monitor me during my workout**. I wanted it t
 ---
 
 <a name="forcing-commit"></a>
-## You feel like you won't be able to commit more than a couple of days ?
-You can tell the program to obligate you to do your workout!
-How? 
-By disabling your mouse and keyboard when a session begins! That way, you won't be able to back off when a session begins!
+## What if I can't commit to it ?
+You can ask the program to force you to do your workout!
+How?
+By asking the program to deactivate your mouse and keyboard at the start of each session! 
+In this way, the AI will be the one to reactivate the inputs after the session. 
+You won't be able to do anything until you have done your exercises!
 
 You can find it in the configuration file under [INPUTS]
 
