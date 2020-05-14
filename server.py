@@ -18,6 +18,8 @@ if getattr(sys, 'frozen', False):
 else:
     app = Flask(__name__, static_url_path='/static')
 
+app.config['SEND_FILE_MAX_AGE_DEFAULT'] = 300
+
 lasttrigger = [0, -1]
 
 tray = None
