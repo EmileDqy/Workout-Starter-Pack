@@ -1,20 +1,5 @@
 import sys, os, subprocess, signal
 
-#def getAbsPath(file):
-#    path = file
-#    if getattr(sys, 'frozen', False):
-#        application_path = os.path.dirname(sys.executable)
-#        path = os.path.join(application_path, file)
-#    return path
-
-# def getAbsPath(file):
-#     if getattr(sys, 'frozen', False):
-#         application_path = os.path.dirname(sys.executable)
-#     elif __file__:
-#         application_path = os.path.dirname(__file__)
-#     path = os.path.join(application_path, file)
-#     return path
-
 def getAbsPath(file):
     if getattr(sys, 'frozen', False):
         application_path = sys._MEIPASS
