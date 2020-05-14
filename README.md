@@ -1,11 +1,11 @@
-# Workout Starter Pack (v0.1)
+# Workout Starter Pack (beta v0.1)
 
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/AlioptK/Workout-Starter-Pack/issues)
 
 
 
 <p align="center">
- <img src="https://drive.google.com/uc?export=view&id=1M1KEQNnz7zvc9J3HIPdBT-tQXRX1aY4z" />
+ <img src="demo.gif" />
 </p>
 
 # Introduction :
