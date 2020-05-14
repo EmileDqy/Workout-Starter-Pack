@@ -1,4 +1,4 @@
-# Workout Starter Pack  : <img src="https://i.imgur.com/qYVEnjm.png" alt="drawing" width="140"/>
+<h1 style="align-items:center;"> Workout Starter Pack  : :computer: :link: :muscle:</h1>
 
 [![](https://img.shields.io/badge/beta-v0.1-brightgreen)](https://github.com/AlioptK/Workout-Starter-Pack/pulls)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/AlioptK/Workout-Starter-Pack/issues)
