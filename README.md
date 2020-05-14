@@ -81,7 +81,7 @@ You can find it in the configuration file under [INPUTS]
 
 <a name="installation-exe"></a>
 ### Installing the executable :
-1) **Download the executable** [here](https://bit.ly/WorkoutStarterPack) !
+1) **Download the executable** [here](https://bit.ly/2yU5Ez6) !
 2) **Extract** its content 
 3) **Edit the configuration file** situated in ```config/config.ini```
 4) **Run** ```Workout Starter Pack.exe``` and you should be good to go!
