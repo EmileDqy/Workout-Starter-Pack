@@ -5,7 +5,7 @@
 
 
 <p align="center">
- <img src="demo.gif" />
+ <img src="./demo_plank.gif" />
 </p>
 
 # Introduction :
