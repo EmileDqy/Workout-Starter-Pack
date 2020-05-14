@@ -14,7 +14,7 @@
 * [What if I can't commit to it ?](#forcing-commit)
 * [Installation](#installation)
     * [Executable](#installation-exe)
-    * [Code source](#installation-source)
+    * [Source code](#installation-source)
 * [Add your own exercices!](#add-exercice)
 * [Share with the community!](#sharing)
 * [TODOs & possible bugs](#todos-bugs)
@@ -73,6 +73,9 @@ You can find it in the configuration file under [INPUTS]
 <a name="installation"></a>
 ## Installation : 
 
+
+### :warning: In order to use this program you wan't to have a laptop equiped with a front facing camera
+
 <a name="installation-exe"></a>
 ### Installing the executable :
 1) **Download the executable** [here](https://bit.ly/WorkoutStarterPack) !
@@ -99,7 +102,7 @@ You should **receive a notification** telling you the number of seconds till the
 
 
 <a name="installation-source"></a>
-### Manual installation (python 3):
+### Installing the source code (python 3):
 
 1) Download the project, unzip it
 2) Go to the folder :
@@ -127,7 +130,17 @@ python main.py
 
 <a name="todos-bugs"></a>
 ## TODOs & possible bugs
-<?php
-include 'TODO.md';
-?>
-<!--#include virtual="TODO.md"-->
+
+#### TODOS :
+
+- Fix the possible errors that can occure with the config file.
+- Use pyQt5's webview in order to render the webpage. It'll allow the program to close the window on its own.
+- Add langage files
+- Add online community workshop (for the exercices and the config files)
+- Add customized reminders such as drinking water every hour.
+- clean the code
+
+#### Possible bugs :
+
+- Webcam not launching (might force the user to turn off the computer if the INPUTS are blocked)
+- CSS might not load if the laptop was on sleep mode
