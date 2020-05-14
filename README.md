@@ -76,10 +76,9 @@ You can find it in the ```configuration file``` under ```[INPUTS]```
 <a name="installation"></a>
 ## Installation : 
 
-
+<a name="installation-exe"></a>
 ### :warning: In order to use this program you want to have a **laptop equiped with a front facing camera**
 
-<a name="installation-exe"></a>
 ### Installing the executable :
 1) **Download the executable** [here (latest version)](https://bit.ly/2yU5Ez6) !
 2) **Extract** its content 
