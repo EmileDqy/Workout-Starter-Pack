@@ -1,11 +1,11 @@
 let model, webcam, ctx, maxPredictions;
 
-// The type of exercice : 0 = SEQUENTIAL ; 1 = SINGLE POSITION TO MAINTAIN
+// The type of exercise : 0 = SEQUENTIAL ; 1 = SINGLE POSITION TO MAINTAIN
 
-// Name of the exercice and its AI's path
+// Name of the exercise and its AI's path
 const URL = "/static/" + name + "/";
 
-// If counter >= value --> Change exercice 
+// If counter >= value --> Change exercise 
 var counter = 0;
 var value = Math.trunc(value);
 
@@ -113,7 +113,7 @@ async function predict() {
         lastT = currentT;
     }
 
-    // If the exercice if DONE : Send request to the server
+    // If the exercise if DONE : Send request to the server
     if((timer >= value || counter >= value) && stop == false){
         document.getElementById("n").style = "color:#0F0;"
         stop = true;

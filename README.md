@@ -38,7 +38,7 @@ With this program I had the goal to **find time for me for my workout** and **fo
 
 **I wanted my program to disable both of my mouse and keyboard during each session so that I have no other choice but to do my workout session**. Thus, I developped it in python (who cares). 
 
-The **AI** was added in order to **monitor me during my workout**. I wanted it to count my pushups or time my planking and **re-enable my peripherics after each session**. I also added **mathematical functions in order to enhance the difficulty of the exercises over time**. 
+The **AI** was added in order to **monitor me during my workout**. I wanted it to count my pushups or time my planking and **re-enable my peripherics after each session**. I also added **mathematical functions in order to increase the difficulty of the exercises over time**. 
 *By default, the program won't disable your mouse and keyboard but if you want to, you also can activate it in the configuration file*.
 
 

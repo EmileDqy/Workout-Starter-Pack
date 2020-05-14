@@ -6,14 +6,14 @@ import subprocess
 
 class Tray:
 
-    def __init__(self, MODE, VALUE, MODE_EXERCICES, EXERCICES):
+    def __init__(self, MODE, VALUE, MODE_EXERCISES, EXERCISES):
         self.MODE = MODE
         if self.MODE == 0:
             self.menu_options = (
                 ("Mode : Repeat", None, self._openConfig),
                 ("Every : " + str(VALUE) + "s", None, self._openConfig),
-                ("Sequence's type : " + ((MODE_EXERCICES == 1) and "Randomized" or "Ordered"), None, self._openConfig),
-                ("Exercices loaded : " + str(EXERCICES), None, self._openConfig),
+                ("Sequence's type : " + ((MODE_EXERCISES == 1) and "Randomized" or "Ordered"), None, self._openConfig),
+                ("Exercises loaded : " + str(EXERCISES), None, self._openConfig),
                 ("Reload", None, self._reload))
         elif self.MODE == 1:
             self.menu_options = (
@@ -21,8 +21,8 @@ class Tray:
                 ("Hours : " + str(VALUE[0]), None, self._openConfig),
                 ("Number of sessions per interval: " + str(VALUE[1]), None, self._openConfig),
                 ("Time between two sessions : " + str(VALUE[2]) + "s", None, self._openConfig),
-                ("Sequence's type : " + ((MODE_EXERCICES == 1) and "Randomized" or "Ordered"), None, self._openConfig),
-                ("Exercices loaded : " + str(EXERCICES), None, self._openConfig),
+                ("Sequence's type : " + ((MODE_EXERCISES == 1) and "Randomized" or "Ordered"), None, self._openConfig),
+                ("Exercises loaded : " + str(EXERCISES), None, self._openConfig),
                 ("Reload", None, self._reload))
         
         self.icon = getAbsPath("./config/icon.ico")

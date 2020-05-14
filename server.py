@@ -25,7 +25,7 @@ tray = None
 PORT = 5000
 HTML = "workoutGUI"
 
-ListExercices = []
+Listexercises = []
 INDEX = 0
 VALUE = 1
 TYPE = 0
@@ -38,18 +38,18 @@ app.config['SECRET_KEY'] = SECRET_KEY
 @csrf.exempt
 @app.route('/process',methods=['POST'])
 def process():
-    global ListExercices, INDEX, VALUE, TYPE, NAME, tray, lasttrigger
+    global Listexercises, INDEX, VALUE, TYPE, NAME, tray, lasttrigger
     
-    #Update the exercice's information (iterations)
-    config.updateExercice(ListExercices[INDEX][0])
+    #Update the exercise's information (iterations)
+    config.updateExercise(Listexercises[INDEX][0])
 
-    if INDEX < len(ListExercices) - 1:
+    if INDEX < len(Listexercises) - 1:
         INDEX += 1
-        VALUE = ListExercices[INDEX][1]
-        TYPE = ListExercices[INDEX][2]
-        NAME = ListExercices[INDEX][0]
+        VALUE = Listexercises[INDEX][1]
+        TYPE = Listexercises[INDEX][2]
+        NAME = Listexercises[INDEX][0]
         isLast = 0
-        if INDEX == len(ListExercices) - 1:
+        if INDEX == len(Listexercises) - 1:
             isLast = 1
         data = {
             "name" : NAME,
@@ -57,7 +57,7 @@ def process():
             "type" : TYPE,
             'isLast' : isLast
         }
-        notify("Workout Starter Pack", "Next exercice : " + NAME + " " + ((TYPE == 0) and "x"+ str(VALUE) or str(VALUE)+"s"), 5)
+        notify("Workout Starter Pack", "Next exercise : " + NAME + " " + ((TYPE == 0) and "x"+ str(VALUE) or str(VALUE)+"s"), 5)
         return render_template(HTML + '.html',  data=data)
     else:
         config.updateLastTrigger(*lasttrigger)
@@ -66,9 +66,9 @@ def process():
 
 @app.route('/', methods=['GET'])
 def index():
-    global ListExercices, VALUE, TYPE, NAME, INDEX
+    global Listexercises, VALUE, TYPE, NAME, INDEX
     isLast = 0
-    if INDEX == len(ListExercices) - 1:
+    if INDEX == len(Listexercises) - 1:
         isLast = 1
     data = {
             "name" : NAME, 
@@ -82,16 +82,16 @@ def get_file_content(uuid):
     with open('./static/'+ NAME + "/" +uuid+'.json', 'r') as file:
         return file.read()
 
-# Exercices : LIST(name, value, type)  
-def run(lastTrigger, ListExercicesExt, PORT, tray_):
-    global INDEX, ListExercices, VALUE, TYPE, NAME, tray, lasttrigger
+# exercises : LIST(name, value, type)  
+def run(lastTrigger, ListexercisesExt, PORT, tray_):
+    global INDEX, Listexercises, VALUE, TYPE, NAME, tray, lasttrigger
     lasttrigger = lastTrigger
     tray = tray_
     INDEX = 0
-    ListExercices = ListExercicesExt[:]
-    NAME = ListExercices[INDEX][0]
-    VALUE = ListExercices[INDEX][1]
-    TYPE = ListExercices[INDEX][2]
+    Listexercises = ListexercisesExt[:]
+    NAME = Listexercises[INDEX][0]
+    VALUE = Listexercises[INDEX][1]
+    TYPE = Listexercises[INDEX][2]
     
     webbrowser.open('http://localhost:' + str(PORT) + "/", new=1, autoraise=True)
     app.run(port=PORT)

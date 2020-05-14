@@ -40,8 +40,8 @@ def init_keyboard(keyboard = True, mouse = True):
 def OnEvent(event):
     return False
 
-#Load exercices configurations
-def getListOfExercices(EXERCICES):
+#Load EXERCISES configurations
+def getListOfEXERCISES(EXERCISES):
     # Init the basic mathematical functions :
     ln = math.log
     log = math.log
@@ -49,20 +49,20 @@ def getListOfExercices(EXERCICES):
     sin = math.sin
     cos = math.cos
 
-    # Let's create a list of every exercice's configuration :
-    ListExercicesHTML = []
-    for name in EXERCICES:
-        exercice_config = config.getExerciceByName(name)
-        if exercice_config != False:
-            TYPE, FORMULA, x = exercice_config
+    # Let's create a list of every exercise's configuration :
+    ListEXERCISESHTML = []
+    for name in EXERCISES:
+        exercise_config = config.getExerciseByName(name)
+        if exercise_config != False:
+            TYPE, FORMULA, x = exercise_config
             FORMULA.replace("^","**")
             FORMULA.replace("x", "*")
             value = eval(FORMULA)
-            ListExercicesHTML.append((name, value, TYPE)) #, int(startPos)
+            ListEXERCISESHTML.append((name, value, TYPE)) #, int(startPos)
             continue
         notify("Workout Starter Pack", "Error: " + name + " not found.", 5)
     
-    return ListExercicesHTML
+    return ListEXERCISESHTML
 
 def start():
     #First, we get the basic information:
@@ -72,18 +72,18 @@ def start():
 
     # Goal : Get basic config, load config, load tray and determine the TIMER
     if MODE == 0:
-        EXERCICES_MODE, EXERCICES_SELECTED, NUMBER_TO_PICK_PER_SESSION, TIMER = info[1:]
-        # Get List Exercices Config:
-        ListExercices = getListOfExercices(EXERCICES_SELECTED)
+        EXERCISES_MODE, EXERCISES_SELECTED, NUMBER_TO_PICK_PER_SESSION, TIMER = info[1:]
+        # Get List EXERCISES Config:
+        ListEXERCISES = getListOfEXERCISES(EXERCISES_SELECTED)
         # Start STRAY as THREAD
-        tray = Tray(MODE, TIMER, EXERCICES_MODE, EXERCICES_SELECTED[:NUMBER_TO_PICK_PER_SESSION])
+        tray = Tray(MODE, TIMER, EXERCISES_MODE, EXERCISES_SELECTED[:NUMBER_TO_PICK_PER_SESSION])
 
     elif MODE == 1:
-        EXERCICES_MODE, EXERCICES_SELECTED, NUMBER_TO_PICK_PER_SESSION, HOURS, MAXIMUM_NUMBER_OF_SESSIONS_PER_INTERVAL, RECUPERATION_TIME_SECONDS =  info[1:]
-        # Get List Exercices Config:
-        ListExercices = getListOfExercices(EXERCICES_SELECTED)
+        EXERCISES_MODE, EXERCISES_SELECTED, NUMBER_TO_PICK_PER_SESSION, HOURS, MAXIMUM_NUMBER_OF_SESSIONS_PER_INTERVAL, RECUPERATION_TIME_SECONDS =  info[1:]
+        # Get List EXERCISES Config:
+        ListEXERCISES = getListOfEXERCISES(EXERCISES_SELECTED)
         # Start STRAY as THREAD
-        tray = Tray(MODE, [HOURS, MAXIMUM_NUMBER_OF_SESSIONS_PER_INTERVAL, RECUPERATION_TIME_SECONDS], EXERCICES_MODE, EXERCICES_SELECTED[:NUMBER_TO_PICK_PER_SESSION])
+        tray = Tray(MODE, [HOURS, MAXIMUM_NUMBER_OF_SESSIONS_PER_INTERVAL, RECUPERATION_TIME_SECONDS], EXERCISES_MODE, EXERCISES_SELECTED[:NUMBER_TO_PICK_PER_SESSION])
         
         # Get current time and hour : determine TIMER
         
@@ -139,20 +139,20 @@ def start():
             TIMER = (nextDateTime - currentDT).total_seconds()
 
     # Notify for the user of what was done
-    if len(ListExercices) == 0:
-        notify("Workout Starter Pack", "Error: no exercices loaded. Please look at the configuration file. Quitting.", 5)
+    if len(ListEXERCISES) == 0:
+        notify("Workout Starter Pack", "Error: no EXERCISES loaded. Please look at the configuration file. Quitting.", 5)
         sys.exit(0)
 
-    # EXERCICES_MODE : 
-    if EXERCICES_MODE == 1:
-        shuffle(ListExercices)
-        ListExercices[NUMBER_TO_PICK_PER_SESSION:]
-    elif EXERCICES_MODE == 0:
-        ListExercices[NUMBER_TO_PICK_PER_SESSION:]
+    # EXERCISES_MODE : 
+    if EXERCISES_MODE == 1:
+        shuffle(ListEXERCISES)
+        ListEXERCISES[NUMBER_TO_PICK_PER_SESSION:]
+    elif EXERCISES_MODE == 0:
+        ListEXERCISES[NUMBER_TO_PICK_PER_SESSION:]
     
     # Notify of the next session's content
-    names = [i[0] for i in ListExercices]
-    notify("Workout Starter Pack", str(len(ListExercices)) + " exercices loaded!\nWaiting " + str(int(TIMER)) + " seconds. \nNext Session : " + " ".join(names) , 5)
+    names = [i[0] for i in ListEXERCISES]
+    notify("Workout Starter Pack", str(len(ListEXERCISES)) + " EXERCISES loaded!\nWaiting " + str(int(TIMER)) + " seconds. \nNext Session : " + " ".join(names) , 5)
     
     # Starting the tray
     tray.init_icon_tray()
@@ -161,7 +161,7 @@ def start():
     time.sleep(TIMER)
 
     # Remind the user of the session's content
-    notify("Workout Starter Pack", ((EXERCICES_MODE == 0) and "Ordered" or "Randomized") + " sequence :\n  - " + "\n  - ".join(names) , 5)
+    notify("Workout Starter Pack", ((EXERCISES_MODE == 0) and "Ordered" or "Randomized") + " sequence :\n  - " + "\n  - ".join(names) , 5)
 
     # Redirect the keys and mouse events
     print("Redirecting keys events...")
@@ -171,7 +171,7 @@ def start():
 
     # Run the server
     PORT = config.getServerConfig()
-    run(lastTrigger, ListExercices, PORT, tray)
+    run(lastTrigger, ListEXERCISES, PORT, tray)
 
 if __name__ == "__main__":
     if(has_internet()):
