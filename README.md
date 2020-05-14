@@ -8,7 +8,18 @@
  <img src="./demo_plank.gif" />
 </p>
 
-# Introduction :
+## Table of contents
+* [Introduction](#introduction)
+* [Content](#content)
+* [What if I can't commit to it ?](#forcing-commit)
+* [Installation](#installation)
+    * [Executable](#installation-exe)
+    * [Code source](#installation-source)
+* [Add your own exercices!](#add-exercice)
+* [Share with the community!](#sharing)
+
+<a name="introduction"></a>
+## Introduction
 
 **Workout Starter Pack (WSPack) is a highly configurable *community driven* workout program!**
 Designed with the goal in mind to help its users develop healthier habits, WSPack is the perfect companion for every developper, remote-worker and basically anyone that has to stay in front of a computer all day!
@@ -30,8 +41,8 @@ The **AI** was added in order to **monitor me during my workout**. I wanted it t
 *By default, the program won't disable your mouse and keyboard but if you want to, you also can activate it in the configuration file*.
 
 
-
-# In this starter pack, you'll find :
+<a name="content"></a>
+## In this starter pack, you'll find
  - Customizable exercices and workout sessions :
       - **Customize**, for each exercice, **the number of repetitions** you have to do over time
       - **Create a sequence by selecting one or multiple exercices** from the list of the already installed ones
@@ -50,15 +61,18 @@ The **AI** was added in order to **monitor me during my workout**. I wanted it t
 
 ---
 
-# You feel like you won't be able to commit more than a couple of days ?
+<a name="forcing-commit"></a>
+## You feel like you won't be able to commit more than a couple of days ?
 You can tell the program to obligate you to do your workout!
 How? 
 By disabling your mouse and keyboard when a session begins! That way, you won't be able to back off when a session begins!
 
 You can find it in the configuration file under [INPUTS]
 
-# Installation : 
+<a name="installation"></a>
+## Installation : 
 
+<a name="installation-exe"></a>
 ### Installing the executable :
 1) **Download the executable** [here](https://bit.ly/WorkoutStarterPack) !
 2) **Extract** its content 
@@ -83,7 +97,7 @@ You should **receive a notification** telling you the number of seconds till the
 5) Paste the shortcut
 
 
-
+<a name="installation-source"></a>
 ### Manual installation (python 3):
 
 1) Download the project, unzip it
@@ -100,11 +114,12 @@ pip install -r requirements.txt
 python main.py 
 ```
 
-
-# How to create your own exercices :
+<a name="add-exercice"></a>
+## How to create your own exercices :
 
 [tutorial comming soon]
 
-# The community's workshop !
+<a name="sharing"></a>
+## The community's workshop !
 
 [comming soon]
