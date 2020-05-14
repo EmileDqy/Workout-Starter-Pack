@@ -117,9 +117,9 @@ python main.py
 <a name="add-exercice"></a>
 ## How to create your own exercices :
 
-[tutorial comming soon]
+[tutorial coming soon]
 
 <a name="sharing"></a>
 ## The community's workshop !
 
-[comming soon]
+[coming soon]
