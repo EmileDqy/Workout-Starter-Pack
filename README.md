@@ -17,6 +17,7 @@
     * [Code source](#installation-source)
 * [Add your own exercices!](#add-exercice)
 * [Share with the community!](#sharing)
+* [TODOs & possible bugs](#todos-bugs)
 
 <a name="introduction"></a>
 ## Introduction
@@ -115,7 +116,7 @@ python main.py
 ```
 
 <a name="add-exercice"></a>
-## How to create your own exercices :
+## How to create your own exercices
 
 [tutorial coming soon]
 
@@ -123,3 +124,10 @@ python main.py
 ## The community's workshop !
 
 [coming soon]
+
+<a name="todos-bugs"></a>
+## TODOs & possible bugs
+<?php
+include 'TODO.md';
+?>
+<!--#include virtual="TODO.md"-->
