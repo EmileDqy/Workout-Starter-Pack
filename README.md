@@ -71,7 +71,7 @@ By asking the program to deactivate your mouse and keyboard at the start of each
 In this way, the AI will be the one to reactivate the inputs after the session. 
 You won't be able to do anything until you have done your exercises!
 
-You can find it in the configuration file under [INPUTS]
+You can find it in the ```configuration file``` under ```[INPUTS]```
 
 <a name="installation"></a>
 ## Installation : 
