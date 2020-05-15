@@ -4,9 +4,9 @@
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/AlioptK/Workout-Starter-Pack/issues)
 
 
-
-<p align="center">
- <img src="./demo_plank.gif" />
+<p style="flex:row" align="center">
+ <img src="./demo_squats.gif" width="350"/>
+ <img src="./demo_plank.gif" width="350"/>
 </p>
 
 ## Table of contents
