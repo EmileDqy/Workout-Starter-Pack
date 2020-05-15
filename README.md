@@ -59,7 +59,7 @@ The **AI** was added in order to **monitor me during my workout**. I wanted it t
   - Pushups : the AI will ```count your pushups```
   - Plank : the AI will ```time you```. As long as you plank, time will be added to the counter. But if you stop planking, time will be deducted.
 
-### The exercise you were looking for isn't on the list ? Add it and let the community use it [here](#sharing))!
+### The exercise you were looking for isn't on the list ? Add it and let the community use it (see [here](#sharing))!
 
 ---
 
