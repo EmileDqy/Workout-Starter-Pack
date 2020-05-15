@@ -52,12 +52,12 @@ The **AI** was added in order to **monitor me during my workout**. I wanted it t
       - **Create and import your own exercises**
  - **An AI which analyzes your movements by counting your repetitions or time your position**
  - **Two modes** were added : 
-     - One that runs a session every N seconds throughout the whole day
-     - Another that works by intervals of hours, allowing you to run N sessions during each interval 
+     - One that runs a session ```every N seconds``` throughout the whole day
+     - Another that works by ```intervals of hours```, allowing you to ```run N sessions each interval``` 
  
 ### The Starter Pack comes with 2 basic exercises :
-  - Pushups : the AI will count your pushups
-  - Plank : the AI will time you. As long as you plank, time will be added to the counter. But if you stop planking, time will be deducted.
+  - Pushups : the AI will ```count your pushups```
+  - Plank : the AI will ```time you```. As long as you plank, time will be added to the counter. But if you stop planking, time will be deducted.
 
 ### The exercise you were looking for isn't on the list ? Add it and let the community use it (see bellow)!
 
@@ -71,15 +71,14 @@ By asking the program to deactivate your mouse and keyboard at the start of each
 In this way, the AI will be the one to reactivate the inputs after the session. 
 You won't be able to do anything until you have done your exercises!
 
-You can find it in the configuration file under [INPUTS]
+You can find it in the ```configuration file``` under ```[INPUTS]```
 
 <a name="installation"></a>
 ## Installation : 
 
-
+<a name="installation-exe"></a>
 ### :warning: In order to use this program you want to have a **laptop equiped with a front facing camera**
 
-<a name="installation-exe"></a>
 ### Installing the executable :
 1) **Download the executable** [here (latest version)](https://bit.ly/2yU5Ez6) !
 2) **Extract** its content 
@@ -96,7 +95,7 @@ You should **receive a notification** telling you the number of seconds till the
 
 #### If you want to run it on startup :
 
-1) Right click on the executable -> Create Shortcut
+1) ```Right click``` on the executable **->** ```Create Shortcut```
 2) Copy or Cut the Shortcut
 3) Press ``` WIN + R ```
 4) Enter ``` shell:startup ```
@@ -136,12 +135,14 @@ python main.py
 
 #### TODOS :
 
+- Add an animation or a mini-game for the training. 
 - Fix the possible errors that can occure with the config file.
 - Use pyQt5's webview in order to render the webpage. It'll allow the program to close the window on its own.
 - Add langage files
 - Add online community workshop (for the exercises and the config files)
 - Add customized reminders such as drinking water every hour.
 - clean the code
+- Rename the project ?
 
 #### Possible bugs :
 
