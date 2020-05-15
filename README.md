@@ -136,13 +136,14 @@ python main.py
 
 #### TODOS :
 
+- [critical] Fix the tray (not closing properly and when we click on a button it breaks the CSS later on)
 - Add an animation or a mini-game for the training. 
-- Fix the possible errors that can occure with the config file.
+- [top priority] Fix the possible errors that can occure with the config file.
 - Use pyQt5's webview in order to render the webpage. It'll allow the program to close the window on its own.
 - Add langage files
-- Add online community workshop (for the exercises and the config files)
+- [top priority] Add online community workshop (for the exercises and the config files)
 - Add customized reminders such as drinking water every hour.
-- clean the code
+- [top priority] clean the code
 - Rename the project ?
 
 #### Possible bugs :
