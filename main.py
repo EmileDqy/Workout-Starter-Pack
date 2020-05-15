@@ -146,7 +146,7 @@ def start():
     # EXERCISES_MODE : 
     if EXERCISES_MODE == 1:
         shuffle(ListEXERCISES)
-    ListEXERCISES = ListEXERCISES[NUMBER_TO_PICK_PER_SESSION:]
+    ListEXERCISES = ListEXERCISES[:NUMBER_TO_PICK_PER_SESSION]
     
     # Notify of the next session's content
     names = [i[0] for i in ListEXERCISES]
