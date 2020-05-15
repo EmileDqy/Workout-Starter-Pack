@@ -77,10 +77,11 @@ You can find it in the ```configuration file``` under ```[INPUTS]```
 ## Installation : 
 
 <a name="installation-exe"></a>
-### :warning: In order to use this program you want to have a **laptop equiped with a front facing camera**
+### Prerequisites :
+:warning: In order to use this program you want to have a **laptop equiped with a front facing camera**
 
 ### Installing the executable :
-1) **Download the executable** [here (latest version)](https://bit.ly/2yU5Ez6) !
+1) **Download the executable** [here (latest version)](https://bit.ly/2T84EhW) !
 2) **Extract** its content 
 3) **Edit the configuration file** situated in ```config/config.ini```
 4) **Run** ```Workout Starter Pack.exe``` and you should be good to go!
@@ -135,13 +136,14 @@ python main.py
 
 #### TODOS :
 
+- [critical] Fix the tray (not closing properly and when we click on a button it breaks the CSS later on)
 - Add an animation or a mini-game for the training. 
-- Fix the possible errors that can occure with the config file.
+- [top priority] Fix the possible errors that can occure with the config file.
 - Use pyQt5's webview in order to render the webpage. It'll allow the program to close the window on its own.
 - Add langage files
-- Add online community workshop (for the exercises and the config files)
+- [top priority] Add online community workshop (for the exercises and the config files)
 - Add customized reminders such as drinking water every hour.
-- clean the code
+- [top priority] clean the code
 - Rename the project ?
 
 #### Possible bugs :
