@@ -71,7 +71,7 @@ I'm all day long on my computer (coding, working on projects, etc...), so my ide
 
 You won't be able to do anything until you have done your exercises!
 
-#### To disable both of my mouse and keyboard during each session go to ```config/config.ini```, then under ```[INPUTS]``` turn everything to ```true```.
+#### To disable your mouse and your keyboard during each session go to ```config/config.ini```, then under ```[INPUTS]``` turn everything to ```true```.
 
 <a name="installation"></a>
 ## Installation : 
