@@ -12,7 +12,7 @@
 ## Table of contents
 * [Introduction](#introduction)
 * [Content](#content)
-* [What if I can't commit to it ?](#forcing-commit)
+* [Workout ? I know I won't be able to commit to it..](#forcing-commit)
 * [Installation](#installation)
     * [Executable](#installation-exe)
     * [Source code](#installation-source)
@@ -64,14 +64,14 @@ The **AI** was added in order to **monitor me during my workout**. I wanted it t
 ---
 
 <a name="forcing-commit"></a>
-## What if I can't commit to it ?
-You can ask the program to force you to do your workout!
-How?
-By asking the program to deactivate your mouse and keyboard at the start of each session! 
-In this way, the AI will be the one to reactivate the inputs after the session. 
+## Workout ? I know I won't be able to commit to it..
+Actually you shouldn't worry about that! I developed this program because I can't commit to doing any workout myself! 
+I'm all day long on my computer (coding, working on projects, etc...), so my idea was to make a program that'll find time for me to do my workout and force me to do it by ```disabling both my mouse and my keyboard during each session```.
+> This is why there are AIs, they simply count my reps or time me during my exercises and tell the program when I'm done.
+
 You won't be able to do anything until you have done your exercises!
 
-You can find it in the ```configuration file``` under ```[INPUTS]```
+#### To disable both of my mouse and keyboard during each session go to ```config/config.ini```, then under ```[INPUTS]``` turn everything to ```true```.
 
 <a name="installation"></a>
 ## Installation : 
