@@ -66,7 +66,7 @@ The **AI** was added in order to **monitor me during my workout**. I wanted it t
 <a name="forcing-commit"></a>
 ## Working out? I know I won't be able to commit to it..
 Actually you shouldn't worry about that! I developed this program because I can't commit to doing any workout myself! 
-I'm all day long on my computer (coding, working on projects, etc...), so my idea was to make a program that'll find time for me to do my workout and force me to do it by ```disabling both my mouse and my keyboard during each session```.
+I'm all day long on my computer (coding, working on projects, etc...), so my idea was to make a program that'll find time for me to do my workout and force me to do it ```by disabling my mouse and my keyboard during each session```.
 > This is why there are AIs, they simply count my reps or time me during my exercises and tell the program when I'm done.
 
 You won't be able to do anything until you have done your exercises!
