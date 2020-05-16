@@ -142,14 +142,15 @@ python main.py
     - Rename the project ?
 - High priority :
     - Fix the tray (not closing properly and when we click on a button it breaks the CSS later on)
+    - Create an UI for the configuration
     - Create the workshop
     
     - Add online community workshop (for the exercises and the config files)
 - Ideas for later :
     - Use pyQt5's webview in order to render the webpage. It'll allow the program to close the window on its own
-    - Add an animation or a mini-game for the training
     - Add langage files
     - Add customized reminders such as drinking water every hour
+    - Add an animation or a mini-game for the training
 
 
 #### Possible bugs :
