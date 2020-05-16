@@ -136,18 +136,22 @@ python main.py
 
 #### TODOS :
 
-- [critical] Fix the tray (not closing properly and when we click on a button it breaks the CSS later on)
-- Add an animation or a mini-game for the training. 
-- [top priority] Fix the possible errors that can occure with the config file.
+- Critical :
+    - Fix the tray (not closing properly and when we click on a button it breaks the CSS later on)
+    - Rename the project ?
+- High priority :
+    - clean the code
+    - Create the workshop
+    - Fix the possible errors that can occure with the config file.
+    - Add online community workshop (for the exercises and the config files)
 - Use pyQt5's webview in order to render the webpage. It'll allow the program to close the window on its own.
+- Add an animation or a mini-game for the training. 
 - Add langage files
-- [top priority] Add online community workshop (for the exercises and the config files)
 - Add customized reminders such as drinking water every hour.
-- [top priority] clean the code
-- Rename the project ?
+
 
 #### Possible bugs :
 
 - Camera not launching because it is already used by another program 
   > If you encounter this problem and your mouse and keyboard are both disabled, press ```CTRL + ALT + SUPPR``` and close the program.
-- CSS might not load if the laptop was on sleep mode
+- CSS might not load if the laptop was in sleep mode
