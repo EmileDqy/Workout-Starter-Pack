@@ -141,7 +141,7 @@ python main.py
     - Use datetime instead of seconds for the timers
     - Fix the possible errors that can occure with the config file
     - Rename the project ?
-- High priority :
+- Priority high :
     - Fix the tray (not closing properly and when we click on a button it breaks the CSS later on)
     - Create an UI for the configuration
     - Create the workshop
