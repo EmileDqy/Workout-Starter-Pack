@@ -138,6 +138,7 @@ python main.py
 
 - Critical :
     - clean the code 
+    - Use datetime instead of seconds for the timers
     - Fix the possible errors that can occure with the config file
     - Rename the project ?
 - High priority :
