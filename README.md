@@ -25,7 +25,7 @@
 ### Each exercise is fully configurable with its own AI to help and supervise you! 
 > **Want to share your workout plan and your custom exercises with the community?** Share them at the community's workshop (see below)!
 
-I wanted to work out and be in shape. But I knew myself too well. I knew I wouldn't be able to commit to it for more than a couple of days before giving up and finding excuses for myself.
+I wanted to workout and be in shape. But I knew myself too well. I knew I wouldn't be able to commit to it for more than a couple of days before giving up and finding excuses for myself.
 
 So, I looked at myself and -- well, I'm all day long on my laptop. So my idea was **to create a program that could schedule my workouts and somehow motivate alongside that**.
 The final result is a program running in the background. 
