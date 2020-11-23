@@ -22,10 +22,9 @@
 <a name="introduction"></a>
 ## Introduction
 
-**Workout Starter Pack (WSPack) is a fully configurable *community driven* workout program!**
-Designed with the goal in mind to help its users develop healthier habits, WSPack is the perfect companion for every developer, remote-worker, and anyone that has to stay in front of a computer all day!
+**Workout Starter Pack (WSP)** is a fully configurable community-driven workout program! Designed with the goal in mind to ```help``` its users ```develop healthier habits```, WSP is the perfect companion for every developer, remote-worker, and anyone having to stay in front of a computer all day!
 
-### Each exercise is fully configurable and has its own AI to supervise you! 
+### Each exercise is fully configurable with its own AI to help and supervise you! 
 > **Want to share your workout plan and your custom exercises with the community?** Share them at the community's workshop (see below)!
 
 I wanted to work out and be in shape. But I knew myself too well. I knew I wouldn't be able to commit to it for more than a couple of days before giving up and finding excuses for myself.
@@ -125,16 +124,16 @@ python main.py
 
 #### TODOS :
 
-- Critical :
+- Critical:
     - clean the code 
+    - add tests (unittesting + mocks)
     - Use datetime instead of seconds for the timers
     - Fix the possible errors that can occure with the config file
     - Rename the project ?
-- Priority high :
+- High priority:
     - Fix the tray (not closing properly and when we click on a button it breaks the CSS later on)
     - Create an UI for the configuration
     - Create the workshop
-    
     - Add online community workshop (for the exercises and the config files)
 - Ideas for later :
     - Use pyQt5's webview in order to render the webpage. It'll allow the program to close the window on its own
