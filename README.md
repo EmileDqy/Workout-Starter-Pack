@@ -15,8 +15,6 @@
 * [Installation](#installation)
     * [Executable](#installation-exe)
     * [Source code](#installation-source)
-* [Add your own exercises!](#add-exercise)
-* [Share with the community!](#sharing)
 * [TODOs & possible bugs](#todos-bugs)
 
 <a name="introduction"></a>
