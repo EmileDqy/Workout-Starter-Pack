@@ -23,53 +23,43 @@
 <a name="introduction"></a>
 ## Introduction
 
-**Workout Starter Pack (WSPack) is a highly configurable *community driven* workout program!**
-Designed with the goal in mind to help its users develop healthier habits, WSPack is the perfect companion for every developper, remote-worker and basically anyone that has to stay in front of a computer all day!
+**Workout Starter Pack (WSPack) is a fully configurable *community driven* workout program!**
+Designed with the goal in mind to help its users develop healthier habits, WSPack is the perfect companion for every developer, remote-worker, and anyone that has to stay in front of a computer all day!
 
 ### Each exercise is fully configurable and has its own AI to supervise you! 
-> **Want to share your workout plan and your custom exercises to the community ?** Share them on the community's workshop (see bellow)!
+> **Want to share your workout plan and your custom exercises with the community?** Share them at the community's workshop (see below)!
 
-Let's be real, I wanted to do some workout in order to have a summer body (for once). But I know myself way too well for that. It's like one of these workout resolutions we have every year, I knew I wouldn't be able to commit to it for more than a couple of days before giving up and finding excuses to myself.
+I wanted to work out and be in shape. But I knew myself too well. I knew I wouldn't be able to commit to it for more than a couple of days before giving up and finding excuses for myself.
 
-So... I looked at myself and ... well, I'm all day long on my laptop so I might as well use these hours for my workout.
-I knew a little bit of python as well as some javascript! 
-That was it!  I employed my programming skills to my health and form.
+So, I looked at myself and -- well, I'm all day long on my laptop. So my idea was **to create a program that could schedule my workouts and somehow motivate alongside that**.
+The final result is a program running in the background. 
 
-With this program I had the goal to **find time for me for my workout** and **force me to commit to it**. 
+Each time a session is starting, the program disables the mouse and keyboard's input and starts a website. The latter is then displayed onto the screen and activates the user's camera alongside an artificial intelligence.
 
-**I wanted my program to disable both of my mouse and keyboard during each session so that I have no other choice but to do my workout session**. Thus, I developped it in python (who cares). 
+This AI can count the pushups and squats but also time the sheathing achieved by the user. After each session, the program re-enables the mouse and keyboard. Everything is fully configurable.
 
-The **AI** was added in order to **monitor me during my workout**. I wanted it to count my pushups or time my planking and **re-enable my peripherics after each session**. I also added **mathematical functions in order to increase the difficulty of the exercises over time**. 
-*By default, the program won't disable your mouse and keyboard but if you want to, you also can activate it in the configuration file*.
+I also added **mathematical functions to increase the difficulty of the exercises over time**. 
 
+*By default, the program won't disable your mouse and keyboard. But if you want to, you also can activate it in the configuration file*.
 
 <a name="content"></a>
-## In this starter pack, you'll find
+## What is in this pack?
  - Customizable exercises and workout sessions :
-      - **Customize**, for each exercise, **the number of repetitions** you have to do over time
+      - **Customize**, for each exercise, **the number of repetitions** you have to do overtime
       - **Create a sequence by selecting one or multiple exercises** from the list of the already installed ones
       - **Randomize your sequences** (or not)
-      - **Create and import your own exercises**
+      - **Create and import your exercises**
  - **An AI which analyzes your movements by counting your repetitions or time your position**
  - **Two modes** were added : 
      - One that runs a session ```every N seconds``` throughout the whole day
      - Another that works by ```intervals of hours```, allowing you to ```run N sessions each interval``` 
  
-### The Starter Pack comes with 2 basic exercises :
-  - Pushups : the AI will ```count your pushups```
-  - Plank : the AI will ```time you```. As long as you plank, time will be added to the counter. But if you stop planking, time will be deducted.
+### The Starter Pack comes with three basic exercises :
+  - Pushups: the AI will ```count your pushups```.
+  - Squats: the AI will ```count your squats```.
+  - Sheathing: the AI will ```time you```.
 
-### The exercise you were looking for isn't on the list ? Add it and let the community use it (see [here](#sharing))!
-
----
-
-<a name="forcing-commit"></a>
-## Working out? I know I won't be able to commit to it..
-Actually you shouldn't worry about that! I developed this program because I can't commit to doing any workout myself! 
-I'm all day long on my computer (coding, working on projects, etc...), so my idea was to make a program that'll find time for me to do my workout and force me to do it ```by disabling my mouse and my keyboard during each session```.
-> This is why there are AIs, they simply count my reps or time me during my exercises and tell the program when I'm done.
-
-You won't be able to do anything until you have done your exercises!
+### The exercise you were looking for isn't on the list? Add it and let the community use it (see [here](#sharing))!
 
 #### To disable your mouse and your keyboard during each session go to ```config/config.ini```, then under ```[INPUTS]``` turn everything to ```true```.
 
