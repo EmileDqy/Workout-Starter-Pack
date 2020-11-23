@@ -12,7 +12,6 @@
 ## Table of contents
 * [Introduction](#introduction)
 * [Content](#content)
-* [Working out? I know I won't be able to commit to it..](#forcing-commit)
 * [Installation](#installation)
     * [Executable](#installation-exe)
     * [Source code](#installation-source)
