@@ -53,7 +53,7 @@ I also added **mathematical functions to increase the difficulty of the exercise
 ### The Starter Pack comes with three basic exercises :
   - Pushups: the AI will ```count your pushups```.
   - Squats: the AI will ```count your squats```.
-  - Sheathing: the AI will ```time you```.
+  - Planking: the AI will ```time you```.
 
 ### The exercise you were looking for isn't on the list? Add it and let the community use it (see [here](#sharing))!
 
